@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "domain": "servicio-videoclips.music.lynxpardelle.com",
+  "pageId": "not-found",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Página no encontrada | Lynx Pardelle",
+    "description": "Vuelve a la oferta de Lynx Pardelle.",
+    "canonical": "https://servicio-videoclips.music.lynxpardelle.com/404",
+    "robots": "noindex,nofollow"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "domain": "servicio-videoclips.music.lynxpardelle.com",
+  "aliases": [],
+  "defaultPageId": "default",
+  "routes": [
+    {
+      "pageId": "default",
+      "path": "/",
+      "label": "Videoclips musicales"
+    },
+    {
+      "pageId": "not-found",
+      "path": "/404",
+      "label": "Página no encontrada"
+    }
+  ],
+  "site": {
+    "appIdentity": {
+      "identifier": "lynx-pardelle",
+      "name": "Lynx Pardelle",
+      "version": "0.2.0"
+    },
+    "theme": {
+      "defaultMode": "dark",
+      "palettes": {
+        "light": {
+          "bgColor": "#141217",
+          "textColor": "#f7f3ea",
+          "titleColor": "#f7f3ea",
+          "linkColor": "#f6c17d",
+          "accentColor": "#f6c17d",
+          "secondaryBgColor": "#292229",
+          "secondaryTextColor": "#f7f3ea",
+          "secondaryTitleColor": "#f7f3ea",
+          "secondaryLinkColor": "#f6c17d",
+          "secondaryAccentColor": "#aa7a60",
+          "successColor": "#67d59f",
+          "onSuccessColor": "#141217",
+          "errorColor": "#ff9696",
+          "onErrorColor": "#141217",
+          "warningColor": "#f6c17d",
+          "onWarningColor": "#141217",
+          "infoColor": "#9cddf5",
+          "onInfoColor": "#141217"
+        },
+        "dark": {
+          "bgColor": "#141217",
+          "textColor": "#f7f3ea",
+          "titleColor": "#f7f3ea",
+          "linkColor": "#f6c17d",
+          "accentColor": "#f6c17d",
+          "secondaryBgColor": "#292229",
+          "secondaryTextColor": "#f7f3ea",
+          "secondaryTitleColor": "#f7f3ea",
+          "secondaryLinkColor": "#f6c17d",
+          "secondaryAccentColor": "#aa7a60",
+          "successColor": "#67d59f",
+          "onSuccessColor": "#141217",
+          "errorColor": "#ff9696",
+          "onErrorColor": "#141217",
+          "warningColor": "#f6c17d",
+          "onWarningColor": "#141217",
+          "infoColor": "#9cddf5",
+          "onInfoColor": "#141217"
+        }
+      }
+    },
+    "icons": {
+      "favicon": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+      "themeColor": "#141217"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "Español"
+        }
+      ]
+    },
+    "seo": {
+      "siteName": "Lynx Pardelle",
+      "canonicalOrigin": "https://servicio-videoclips.music.lynxpardelle.com",
+      "robots": "index,follow",
+      "openGraph": {
+        "locale": "es_MX"
+      }
+    }
+  },
+  "runtime": {
+    "analytics": {
+      "enabled": false,
+      "consentUI": "none",
+      "track": []
+    },
+    "features": {
+      "debugMode": false
+    }
+  }
+}

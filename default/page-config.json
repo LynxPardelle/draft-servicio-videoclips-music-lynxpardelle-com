@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "domain": "servicio-videoclips.music.lynxpardelle.com",
+  "pageId": "default",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Videoclips musicales | Lynx Pardelle",
+    "description": "Lleva una canción a pantalla con una idea visual que acompañe su personalidad. El punto de partida puede ser una historia, una propuesta de imágenes o una pieza enfocada en el lanzamiento.",
+    "canonical": "https://servicio-videoclips.music.lynxpardelle.com/",
+    "robots": "index,follow",
+    "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-audiovisual.webp"
+    }
+  }
+}

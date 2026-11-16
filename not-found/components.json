@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "domain": "servicio-videoclips.music.lynxpardelle.com",
+  "pageId": "not-found",
+  "components": [
+    {
+      "id": "page-heading",
+      "type": "text",
+      "config": {
+        "id": "page-heading",
+        "text": "Página no encontrada",
+        "tag": "h1",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Instrument Serif\", Georgia, serif",
+          "fontWeight": "400",
+          "lineHeight": "1",
+          "letterSpacing": "-.04em",
+          "textWrap": "balance",
+          "fontSize": "clamp(38px, 6vw, 82px)"
+        }
+      }
+    },
+    {
+      "id": "not-found-home",
+      "type": "link",
+      "config": {
+        "text": "Volver a las ofertas",
+        "href": "https://music.lynxpardelle.com/formacion",
+        "styles": {
+          "color": "#141217",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#f6c17d",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px",
+          "marginTop": "20px"
+        }
+      }
+    },
+    {
+      "id": "not-found-content",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "page-heading",
+          "not-found-home"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)"
+        }
+      }
+    },
+    {
+      "id": "nav-cursos",
+      "type": "link",
+      "config": {
+        "text": "Cursos",
+        "href": "https://music.lynxpardelle.com/formacion/cursos",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "nav-masterclasses",
+      "type": "link",
+      "config": {
+        "text": "Masterclasses",
+        "href": "https://music.lynxpardelle.com/formacion/masterclasses",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "nav-servicios",
+      "type": "link",
+      "config": {
+        "text": "Servicios",
+        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640",
+          "fontSize": "14px",
+          "textDecoration": "none"
+        }
+      }
+    },
+    {
+      "id": "brand-logo",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/default/hero-images/lynx-pardelle-lince.png",
+        "alt": "",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "38px",
+          "height": "38px",
+          "objectFit": "contain"
+        }
+      }
+    },
+    {
+      "id": "brand-home",
+      "type": "link",
+      "config": {
+        "text": "LYNX PARDELLE",
+        "href": "https://music.lynxpardelle.com/formacion",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "800",
+          "letterSpacing": ".15em",
+          "textDecoration": "none",
+          "gap": "10px"
+        },
+        "components": [
+          "brand-logo"
+        ]
+      }
+    },
+    {
+      "id": "site-nav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "components": [
+          "nav-cursos",
+          "nav-masterclasses",
+          "nav-servicios"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px"
+        },
+        "ariaLabel": "Navegación principal"
+      }
+    },
+    {
+      "id": "site-header",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "components": [
+          "brand-home",
+          "site-nav"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "70px",
+          "justifyContent": "space-between",
+          "paddingBlock": "7px"
+        }
+      }
+    },
+    {
+      "id": "footer-brand",
+      "type": "text",
+      "config": {
+        "id": "footer-brand",
+        "text": "Lynx Pardelle",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "730"
+        }
+      }
+    },
+    {
+      "id": "music-project",
+      "type": "link",
+      "config": {
+        "text": "Proyecto musical ↗",
+        "href": "https://music.lynxpardelle.com/",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-credit",
+      "type": "link",
+      "config": {
+        "text": "Sitio creado por ZooBeriah Systems",
+        "href": "https://zooberiahsystems.com/",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "id": "site-footer",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "components": [
+          "footer-brand",
+          "music-project",
+          "site-credit"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "2px 20px",
+          "minHeight": "85px",
+          "justifyContent": "space-between",
+          "borderTop": "1px solid #40383a"
+        }
+      }
+    },
+    {
+      "id": "main-content",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "components": [
+          "not-found-content"
+        ],
+        "styles": {},
+        "id": "contenido"
+      }
+    },
+    {
+      "id": "site-shell",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "site-header",
+          "main-content",
+          "site-footer"
+        ],
+        "styles": {
+          "background": "#141217",
+          "color": "#f7f3ea",
+          "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
+          "lineHeight": "1.6",
+          "minHeight": "100vh"
+        }
+      }
+    }
+  ]
+}
