@@ -276,7 +276,7 @@
       "type": "text",
       "config": {
         "id": "outcome-title",
-        "text": "Objetivo del trabajo",
+        "text": "¿Cómo encuentras un concepto visual para un videoclip?",
         "tag": "h2",
         "styles": {
           "margin": "0",
@@ -294,7 +294,7 @@
       "type": "text",
       "config": {
         "id": "outcome-copy",
-        "text": "Un concepto de videoclip que relacione la música, el montaje y la imagen con el momento del lanzamiento.",
+        "text": "Partimos de la energía y la historia que sugiere la canción. Con esas referencias, definimos si la pieza funciona mejor con un relato, interpretación o un enfoque visual.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -875,7 +875,8 @@
         "tag": "section",
         "components": [
           "offer-contact",
-          "return-link"
+          "return-link",
+          "portfolio-reference"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -1130,6 +1131,22 @@
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
           "minHeight": "100vh"
+        }
+      }
+    },
+    {
+      "id": "portfolio-reference",
+      "type": "link",
+      "config": {
+        "text": "Ver proyectos audiovisuales de Lynx Pardelle",
+        "href": "https://lynxpardelle.com/reel",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
         }
       }
     }

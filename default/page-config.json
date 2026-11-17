@@ -7,12 +7,56 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Videoclips musicales | Lynx Pardelle",
-    "description": "Lleva una canción a pantalla con una idea visual que acompañe su personalidad. El punto de partida puede ser una historia, una propuesta de imágenes o una pieza enfocada en el lanzamiento.",
+    "title": "Videoclips musicales con enfoque narrativo y visual | Lynx Pardelle",
+    "description": "Explora un enfoque narrativo, visual o promocional para tu videoclip. Relaciona el montaje y la imagen con la canción y su lanzamiento.",
     "canonical": "https://servicio-videoclips.music.lynxpardelle.com/",
     "robots": "index,follow",
     "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-videoclips-r2-dedf8aedbdcf7f1c.webp",
+      "title": "Videoclips musicales con enfoque narrativo y visual | Lynx Pardelle",
+      "description": "Explora un enfoque narrativo, visual o promocional para tu videoclip. Relaciona el montaje y la imagen con la canción y su lanzamiento.",
+      "url": "https://servicio-videoclips.music.lynxpardelle.com/",
+      "imageAlt": "Cámara filmando a un músico bajo luces de escenario."
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Videoclips musicales con enfoque narrativo y visual | Lynx Pardelle",
+      "description": "Explora un enfoque narrativo, visual o promocional para tu videoclip. Relaciona el montaje y la imagen con la canción y su lanzamiento.",
       "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-videoclips-r2-dedf8aedbdcf7f1c.webp"
     }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://servicio-videoclips.music.lynxpardelle.com/#webpage",
+        "name": "Videoclips musicales",
+        "description": "Explora un enfoque narrativo, visual o promocional para tu videoclip. Relaciona el montaje y la imagen con la canción y su lanzamiento.",
+        "url": "https://servicio-videoclips.music.lynxpardelle.com/",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Servicios",
+          "url": "https://music.lynxpardelle.com/servicios"
+        },
+        "mainEntity": {
+          "@id": "https://servicio-videoclips.music.lynxpardelle.com/#contenido-de-la-oferta"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://servicio-videoclips.music.lynxpardelle.com/#contenido-de-la-oferta",
+        "name": "Videoclips musicales",
+        "description": "Explora un enfoque narrativo, visual o promocional para tu videoclip. Relaciona el montaje y la imagen con la canción y su lanzamiento.",
+        "url": "https://servicio-videoclips.music.lynxpardelle.com/",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-videoclips-r2-dedf8aedbdcf7f1c.webp",
+        "provider": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "serviceType": "Videoclips musicales"
+      }
+    ]
   }
 }
