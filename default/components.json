@@ -140,189 +140,6 @@
       }
     },
     {
-      "id": "page-heading",
-      "type": "text",
-      "config": {
-        "id": "page-heading",
-        "text": "Videoclips musicales",
-        "tag": "h1",
-        "styles": {
-          "margin": "0",
-          "fontFamily": "\"Instrument Serif\", Georgia, serif",
-          "fontWeight": "400",
-          "lineHeight": "1",
-          "letterSpacing": "-.04em",
-          "textWrap": "balance",
-          "fontSize": "clamp(38px, 6vw, 82px)",
-          "color": "#141217",
-          "marginBlock": "9px 16px",
-          "maxWidth": "17ch"
-        }
-      }
-    },
-    {
-      "id": "hero-action",
-      "type": "link",
-      "config": {
-        "text": "Cotizar por WhatsApp",
-        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20consultar%20sobre%20este%20servicio%3A%20Videoclips%20musicales.",
-        "styles": {
-          "color": "#f7f3ea",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "750",
-          "padding": "8px 18px",
-          "background": "#141217",
-          "textDecoration": "none",
-          "boxSizing": "border-box",
-          "borderRadius": "3px"
-        }
-      }
-    },
-    {
-      "id": "hero-details",
-      "type": "link",
-      "config": {
-        "text": "Ver el alcance",
-        "href": "#contenido-de-la-oferta",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640"
-        }
-      }
-    },
-    {
-      "id": "hero-label",
-      "type": "text",
-      "config": {
-        "id": "hero-label",
-        "text": "Servicio · Audiovisual y diseño",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontWeight": "760",
-          "textTransform": "uppercase",
-          "letterSpacing": ".13em",
-          "fontSize": "12px",
-          "color": "#714829"
-        }
-      }
-    },
-    {
-      "id": "hero-description",
-      "type": "text",
-      "config": {
-        "id": "hero-description",
-        "text": "Lleva una canción a pantalla con una idea visual que acompañe su personalidad. El punto de partida puede ser una historia, una propuesta de imágenes o una pieza enfocada en el lanzamiento.",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "maxWidth": "61ch",
-          "fontSize": "clamp(16px, 2vw, 21px)",
-          "lineHeight": "1.58"
-        }
-      }
-    },
-    {
-      "id": "hero-actions",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "hero-action",
-          "hero-details"
-        ],
-        "styles": {
-          "display": "flex",
-          "alignItems": "center",
-          "flexWrap": "wrap",
-          "gap": "7px 18px",
-          "marginTop": "23px"
-        }
-      }
-    },
-    {
-      "id": "hero-copy",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "hero-label",
-          "page-heading",
-          "hero-description",
-          "hero-actions"
-        ],
-        "styles": {
-          "minWidth": "0",
-          "position": "relative",
-          "zIndex": "1"
-        }
-      }
-    },
-    {
-      "id": "hero-art",
-      "type": "media",
-      "config": {
-        "tag": "image",
-        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-audiovisual.webp",
-        "alt": "Una lente y referencias visuales para un proyecto audiovisual.",
-        "loading": "eager",
-        "fetchPriority": "high",
-        "decoding": "async",
-        "styles": {
-          "display": "block",
-          "width": "100%",
-          "aspectRatio": "4 / 3",
-          "objectFit": "cover",
-          "border": "1px solid #b9aa99",
-          "boxSizing": "border-box"
-        }
-      }
-    },
-    {
-      "id": "hero-frame",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "hero-art",
-          "hero-copy"
-        ],
-        "styles": {
-          "boxSizing": "border-box",
-          "width": "min(100%, 1200px)",
-          "marginInline": "auto",
-          "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)",
-          "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
-          "gap": "clamp(17px, 4.5vw, 58px)",
-          "alignItems": "center",
-          "minHeight": "min(620px, 70svh)"
-        }
-      }
-    },
-    {
-      "id": "hero",
-      "type": "container",
-      "config": {
-        "tag": "section",
-        "components": [
-          "hero-frame"
-        ],
-        "styles": {
-          "background": "#e9e1d5",
-          "color": "#141217"
-        }
-      }
-    },
-    {
       "id": "topic-heading-0",
       "type": "text",
       "config": {
@@ -362,7 +179,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #4933aa"
         }
       }
     },
@@ -406,7 +223,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #4933aa"
         }
       }
     },
@@ -450,7 +267,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #4933aa"
         }
       }
     },
@@ -581,9 +398,140 @@
           "activity-copy"
         ],
         "styles": {
-          "background": "#ece2d1",
+          "background": "#d3c6ff",
+          "color": "#201a49",
           "padding": "clamp(19px, 3vw, 32px)",
           "alignSelf": "start"
+        }
+      }
+    },
+    {
+      "id": "format-heading",
+      "type": "text",
+      "config": {
+        "id": "format-heading",
+        "text": "Cómo trabajamos",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.1vw, 23px)",
+          "lineHeight": "1.25",
+          "fontWeight": "670"
+        }
+      }
+    },
+    {
+      "id": "format-detail-0",
+      "type": "text",
+      "config": {
+        "id": "format-detail-0",
+        "text": "Piezas promocionales",
+        "tag": "span",
+        "styles": {
+          "margin": "0"
+        }
+      }
+    },
+    {
+      "id": "format-item-0",
+      "type": "container",
+      "config": {
+        "tag": "li",
+        "components": [
+          "format-detail-0"
+        ],
+        "styles": {}
+      }
+    },
+    {
+      "id": "format-detail-1",
+      "type": "text",
+      "config": {
+        "id": "format-detail-1",
+        "text": "Videoclips narrativos",
+        "tag": "span",
+        "styles": {
+          "margin": "0"
+        }
+      }
+    },
+    {
+      "id": "format-item-1",
+      "type": "container",
+      "config": {
+        "tag": "li",
+        "components": [
+          "format-detail-1"
+        ],
+        "styles": {}
+      }
+    },
+    {
+      "id": "format-detail-2",
+      "type": "text",
+      "config": {
+        "id": "format-detail-2",
+        "text": "Piezas de enfoque visual",
+        "tag": "span",
+        "styles": {
+          "margin": "0"
+        }
+      }
+    },
+    {
+      "id": "format-item-2",
+      "type": "container",
+      "config": {
+        "tag": "li",
+        "components": [
+          "format-detail-2"
+        ],
+        "styles": {}
+      }
+    },
+    {
+      "id": "format-list",
+      "type": "container",
+      "config": {
+        "tag": "ul",
+        "components": [
+          "format-item-0",
+          "format-item-1",
+          "format-item-2"
+        ],
+        "styles": {
+          "paddingInlineStart": "19px",
+          "marginBlock": "10px 0"
+        }
+      }
+    },
+    {
+      "id": "offer-format-details",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "format-heading",
+          "format-list"
+        ],
+        "styles": {
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "topic-information",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "offer-format-details"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "marginBlockStart": "25px"
         }
       }
     },
@@ -606,7 +554,8 @@
         "tag": "div",
         "components": [
           "overview",
-          "topic-list"
+          "topic-list",
+          "topic-information"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -629,11 +578,257 @@
           "topic-frame"
         ],
         "styles": {
-          "color": "#141217",
-          "background": "#f7f3ea"
+          "color": "#201a49",
+          "background": "#f1efff"
         },
         "id": "contenido-de-la-oferta",
         "tabindex": -1
+      }
+    },
+    {
+      "id": "context-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-servicio-audiovisual.webp",
+        "alt": "Una lente y referencias visuales para un proyecto audiovisual.",
+        "loading": "lazy",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "aspectRatio": "16 / 9",
+          "objectFit": "cover",
+          "maxHeight": "480px"
+        }
+      }
+    },
+    {
+      "id": "offer-context",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "context-art"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(22px, 5vw, 52px)"
+        }
+      }
+    },
+    {
+      "id": "hero-label",
+      "type": "text",
+      "config": {
+        "id": "hero-label",
+        "text": "Servicio · Audiovisual y diseño",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "760",
+          "textTransform": "uppercase",
+          "letterSpacing": ".13em",
+          "fontSize": "12px",
+          "color": "#d3c6ff"
+        }
+      }
+    },
+    {
+      "id": "page-heading",
+      "type": "text",
+      "config": {
+        "id": "page-heading",
+        "text": "Videoclips musicales",
+        "tag": "h1",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Fahkwang\", \"Arial Narrow\", \"Trebuchet MS\", sans-serif",
+          "fontWeight": "680",
+          "lineHeight": ".99",
+          "letterSpacing": "-.035em",
+          "textWrap": "balance",
+          "fontSize": "clamp(33px, 5.4vw, 74px)",
+          "overflowWrap": "break-word",
+          "marginBlock": "10px 15px",
+          "maxWidth": "20ch"
+        }
+      }
+    },
+    {
+      "id": "hero-description",
+      "type": "text",
+      "config": {
+        "id": "hero-description",
+        "text": "Lleva una canción a pantalla con una idea visual que acompañe su personalidad. El punto de partida puede ser una historia, una propuesta de imágenes o una pieza enfocada en el lanzamiento.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "52ch",
+          "fontSize": "clamp(16px, 2vw, 21px)",
+          "lineHeight": "1.58"
+        }
+      }
+    },
+    {
+      "id": "hero-action",
+      "type": "link",
+      "config": {
+        "text": "Cotizar por WhatsApp",
+        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20consultar%20sobre%20este%20servicio%3A%20Videoclips%20musicales.",
+        "styles": {
+          "color": "#201a49",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#d3c6ff",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px"
+        }
+      }
+    },
+    {
+      "id": "hero-details",
+      "type": "link",
+      "config": {
+        "text": "Ver el alcance",
+        "href": "#contenido-de-la-oferta",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        }
+      }
+    },
+    {
+      "id": "hero-actions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-action",
+          "hero-details"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "5px 17px",
+          "marginBlockStart": "20px"
+        }
+      }
+    },
+    {
+      "id": "hero-heading",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-label",
+          "page-heading"
+        ],
+        "styles": {
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/servicio-videoclips-r2-dedf8aedbdcf7f1c.webp",
+        "alt": "Cámara filmando a un músico bajo luces de escenario.",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "objectFit": "cover",
+          "position": "absolute",
+          "inset": "0",
+          "height": "100%",
+          "objectPosition": "center 45%"
+        }
+      }
+    },
+    {
+      "id": "hero-scrim",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [],
+        "styles": {
+          "position": "absolute",
+          "inset": "0",
+          "background": "linear-gradient(90deg, #15131bf5 0%, #17131be8 42%, #13111a42 100%), linear-gradient(0deg, #13111ae8, transparent 72%)"
+        }
+      }
+    },
+    {
+      "id": "hero-copy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-heading",
+          "hero-description",
+          "hero-actions"
+        ],
+        "styles": {
+          "minWidth": "0",
+          "position": "relative",
+          "maxWidth": "690px"
+        }
+      }
+    },
+    {
+      "id": "hero-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-copy"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "display": "grid",
+          "alignContent": "end",
+          "minHeight": "min(625px, 78svh)"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "components": [
+          "hero-art",
+          "hero-scrim",
+          "hero-frame"
+        ],
+        "styles": {
+          "color": "#f7f3ea",
+          "background": "#16162f",
+          "overflow": "hidden",
+          "position": "relative"
+        }
       }
     },
     {
@@ -662,7 +857,7 @@
       "type": "link",
       "config": {
         "text": "← Volver a servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "https://music.lynxpardelle.com/servicios",
         "styles": {
           "color": "#f6c17d",
           "textUnderlineOffset": "4px",
@@ -736,7 +931,7 @@
       "type": "link",
       "config": {
         "text": "Servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "https://music.lynxpardelle.com/servicios",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -775,7 +970,7 @@
         "text": "LYNX PARDELLE",
         "href": "https://music.lynxpardelle.com/formacion",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#d3c6ff",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -853,7 +1048,7 @@
         "text": "Proyecto musical ↗",
         "href": "https://music.lynxpardelle.com/",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#d3c6ff",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -911,6 +1106,7 @@
         "components": [
           "hero",
           "topic-section",
+          "offer-context",
           "bio",
           "return-section"
         ],
@@ -929,7 +1125,7 @@
           "site-footer"
         ],
         "styles": {
-          "background": "#141217",
+          "background": "#16162f",
           "color": "#f7f3ea",
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
