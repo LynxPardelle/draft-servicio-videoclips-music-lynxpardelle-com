@@ -11,3 +11,7 @@ This repository owns one sanitized Zoolanding draft package.
 - Shared authoring, safety, release, asset, and alias guidance: [Zoolandingpage documentation hub](https://github.com/LynxPardelle/zoolandingpage/blob/main/docs/README.md)
 
 Read only the task-specific route in `AGENTS.md`; do not duplicate shared hub procedures here.
+
+## Review entry point
+
+[Open this offer in the shared Zoolandingpage preview](https://test.zoolandingpage.com.mx/?draftDomain=servicio-videoclips.music.lynxpardelle.com).
